@@ -1,5 +1,10 @@
+"""Description of welcome."""
+
+
 import prompt
 
+
 def welcome_user():
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    """Welcome function."""
+    name = prompt.string('May I have your name?\n')
+    print('Hello, {0}!'.format(name))
